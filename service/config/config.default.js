@@ -48,7 +48,7 @@ module.exports = appInfo => {
   };
   config.cors = {
     origin:'http://localhost:3000',
-    credentials: true,//允许Cook跨域
+    credentials: true,//允许Cookis跨域，前后端分离共享session的方法
     allowMethods:'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
   }
 
